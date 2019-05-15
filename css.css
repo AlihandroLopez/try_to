@@ -1,0 +1,11 @@
+body{background-color:  black; }
+#B{background-color:grey;color: yellow;margin: 300px 300px 300px 300px;font-size: 20px;
+border-radius: 20px 20px/50px 20px/50px 20px;
+width: 600px;height: 300px;
+}
+
+/*border-radius: 10px 20px 30px 40px;     все работает*/
+/* border-radius: 40px/20px 10px/30px 20px/40px 10px/20px;  - радиусы не применяются вообще, это я прямо копировал из книги по CSS */
+/*border-radius: 20px 20px/50px 20px 20px;   - отличается верхний левый, а должен верхний правый */
+/* border-radius: 20px 20px/50px 20px/50px 20px;  не применяется вообще */
+/* это на 221 странице рассматривается у Макфарланда книге по CSS*/
